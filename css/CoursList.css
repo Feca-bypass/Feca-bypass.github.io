@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container1{
+    width: 100%;
+    height: 190vh;
+    background-image: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.7)),url(../background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    padding-bottom: 400px;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+   width: 30px;
+   cursor: pointer;
+   margin-left: 40px;
+   padding-bottom: 18px;
+}
+nav{
+  flex: 1;
+  text-align: right;  
+}
+nav ul li {
+   list-style: none;
+   display: inline-block;
+   margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.form-control1 .bx{
+    position: absolute;
+    left: 346px;
+    transform: translateY(-158%);
+}
+.active{
+    visibility: visible;
+}
+.desactive{
+    visibility: hidden;
+}
+.col-9 .d-flex .flex-wrap .content{
+    margin-bottom: 230px;
+}
+.list-group-item{
+    cursor: pointer;
+}
+.list-group-item:hover{
+    background-color: #4c402c2a;
+}
+h3{
+    color: #fff;
+    text-shadow: 0 0 5px rgba(139, 137, 137, 0.824);
+    margin-left: 70px;
+}
